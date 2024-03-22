@@ -1,13 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, A11y, Autoplay } from 'swiper';
+// import { Pagination, A11y, Autoplay } from 'swiper/modules';
+import { Autoplay, Pagination, A11y } from 'swiper';
+// import 'swiper/swiper-bundle.min.css';
 import { displayMoney } from '../../helpers/utils';
 import productsData from '../../data/productsData';
 
 import 'swiper/scss';
 import 'swiper/scss/autoplay';
 import 'swiper/scss/pagination';
+// import 'swiper/swiper.scss';
+// import 'swiper/modules/pagination/pagination';
+// import 'swiper/modules/autoplay/autoplay.scss';
+
 
 
 const HeroSlider = () => {

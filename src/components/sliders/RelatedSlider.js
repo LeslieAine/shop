@@ -1,11 +1,14 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, A11y } from 'swiper';
+// import 'swiper/swiper-bundle.min.css';
 import productsData from '../../data/productsData';
 import ProductCard from '../product/ProductCard';
 
 import 'swiper/scss';
 import 'swiper/scss/pagination';
+// import 'swiper/swiper.scss';
+// import 'swiper/components/pagination/pagination.scss';
 
 
 const RelatedSlider = (props) => {
