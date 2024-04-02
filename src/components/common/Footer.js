@@ -73,7 +73,7 @@ const Footer = () => {
                         <div className="foot_copyright">
                             <p>
                                 {currYear} | BeatS. All Rights Reserved.
-                                Built by | <a href="https://github.com/LeslieAine">Leslie Aine</a>
+                                Built by | <a href="https://netnalysis.com">NETNALYSIS LLC</a>
                             </p>
                         </div>
                         <div className="foot_social">
